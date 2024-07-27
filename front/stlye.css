@@ -1,0 +1,59 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.role{
+    font-weight: 900;
+}
+
+#chats{
+    min-height: 50px;
+    max-height: 400px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0.1px solid rgb(220, 220, 220);
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.chat{
+    background-color: #2f2f2f;
+    border: 0px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.user{
+    background-color: #151515;
+}
